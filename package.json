@@ -1,0 +1,29 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticiancalvess/animais-fantasticos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leticiancalvess/animais-fantasticos/issues"
+  },
+  "homepage": "https://github.com/leticiancalvess/animais-fantasticos#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "eslint": "^8.0.1",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  }
+}
